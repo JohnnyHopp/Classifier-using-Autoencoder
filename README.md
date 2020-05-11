@@ -1,20 +1,20 @@
-## Classifier-using-Autoencoder
+# Classifier-using-Autoencoder
  An investigation on Classifier using AutoEncoder
 
 This repository contains a convolutional neural network Classifier with AutoEncoder implemented in PyTorch.
 >Note: The code in this repository was tested with torch version 1.4.0
 
-# Possible requirements:
+## Possible requirements:
 torch == 1.4.0
 torchvision >= 0.5.0
 numpy >= 1.16.5
 matplotlib >= 3.1.1
 PIL >= 6.2.0
 
-# 1.Data Preparation
+## 1.Data Preparation
 You have to download the CIFAR-10 dataset in pytorch versjion first to DIRECT = './data/cifar-10-batches-py/' and unpack, then use datasetPreparation.py to prepare the training and validation dataset as numpy format(dataTrain.npy, labelTrain.npy, dataValidation.npy, labelValidation.npy) , the default saving directory is './data/'.
 
-# 2.Implementation
+## 2.Implementation
 main.py is the main implementation code to run. Following are the arguments:
 
 >"-data" : Input data folder <br>
