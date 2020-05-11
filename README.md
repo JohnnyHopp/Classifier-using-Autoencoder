@@ -1,8 +1,8 @@
 ## Classifier-using-Autoencoder
  An investigation on Classifier using AutoEncoder
 
-This repository contains a onvolutional neural network Classifier with AutoEncoder implemented in PyTorch.
-Note: The code in this repository was tested with torch version 1.4.0
+This repository contains a convolutional neural network Classifier with AutoEncoder implemented in PyTorch.
+>Note: The code in this repository was tested with torch version 1.4.0
 
 # Possible requirements:
 torch == 1.4.0
