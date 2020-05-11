@@ -12,7 +12,7 @@ matplotlib >= 3.1.1
 PIL >= 6.2.0
 
 ## 1.Data Preparation
-You have to download the CIFAR-10 dataset in pytorch versjion first to DIRECT = './data/cifar-10-batches-py/' and unpack, then use datasetPreparation.py to prepare the training and validation dataset as numpy format(dataTrain.npy, labelTrain.npy, dataValidation.npy, labelValidation.npy) , the default saving directory is './data/'.
+You have to download the CIFAR-10 dataset in pytorch version first to DIRECT = './data/cifar-10-batches-py/' and unpack, then use datasetPreparation.py to prepare the training and validation dataset as numpy format(dataTrain.npy, labelTrain.npy, dataValidation.npy, labelValidation.npy) , the default saving directory is './data/'.
 
 ## 2.Implementation
 main.py is the main implementation code to run. Following are the arguments:
